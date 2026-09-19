@@ -20,7 +20,9 @@ classifiers = [
 dependencies = [
     "aiohttp>=3.11.18",
     "aiolimiter>=1.2.1",
-    "pycryptodome>=3.20.0"
+    "cyclopts>=4.11.0",
+    "pycryptodome>=3.20.0",
+    "rich>=15.0.0",
 ]
 description = "Python library for the Mega.nz and Transfer.it API"
 keywords = [

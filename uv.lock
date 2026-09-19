@@ -142,7 +142,9 @@ source = { editable = "." }
 dependencies = [
     { name = "aiohttp" },
     { name = "aiolimiter" },
+    { name = "cyclopts" },
     { name = "pycryptodome" },
+    { name = "rich" },
 ]
 
 [package.optional-dependencies]
@@ -163,9 +165,11 @@ dev = [
 requires-dist = [
     { name = "aiohttp", specifier = ">=3.11.18" },
     { name = "aiolimiter", specifier = ">=1.2.1" },
+    { name = "cyclopts", specifier = ">=4.11.0" },
     { name = "cyclopts", marker = "extra == 'cli'", specifier = ">=4.10.1" },
     { name = "pycryptodome", specifier = ">=3.20.0" },
     { name = "python-dotenv", marker = "extra == 'cli'", specifier = ">=1.2.1" },
+    { name = "rich", specifier = ">=15.0.0" },
 ]
 provides-extras = ["cli"]
 
